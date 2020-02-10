@@ -38,7 +38,7 @@ async function getWeatherAW2(){
 
 
         const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
-        const url = `http://api.openweathermap.org/data/2.5/forecast?q=daegu&appid=7b8161880e7347a096624195021341c5
+        const url = `http://api.openweathermap.org/data/2.5/forecast?q=gimhae&units=metric&appid=7b8161880e7347a096624195021341c5
 `;
         
         const result = await fetch(proxyUrl + url);    // proxyUrl + API url 로 사용
